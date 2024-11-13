@@ -26,6 +26,7 @@ Navigate to the frontend and backend directories and install the necessary depen
 For the frontend:
 >>cd frontend
 >>npm install
+
 For the backend:
 >>cd backend
 >>npm install

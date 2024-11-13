@@ -11,19 +11,15 @@ const app =express();
 app.use(express.json());
 
 //To allow all origins
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods:["POST","GET"],
+    credentials: true
+  }
+));
 
-/*
-app.use(
-  cors({
-    origin: 'http://localhost:3000',
-    methods: ['GET','POST','PUT','DELETE'],
-    allowedHeaders: ['Content-Type'],
 
-  })
-  
-);
-*/
 
 app.get('/',(request, response) =>{
     console.log(request);

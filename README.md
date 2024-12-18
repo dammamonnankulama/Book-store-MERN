@@ -19,7 +19,7 @@ Add/Edit/Delete Books:
 
 ## Installation🚀
 
-To run this portfolio locally, follow these steps:
+To run this locally, follow these steps:
 
 1. Clone the Repository: First, clone the repository to your local machine:
  ` git clone https://github.com/dammamonnankulama/Book-Store_MERN.git`

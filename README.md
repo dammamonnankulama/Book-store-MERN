@@ -17,28 +17,28 @@ Follow these steps to get the project up and running:
 
 1. Clone the Repository:
 First, clone the repository to your local machine:
->>git clone https://github.com/dammamonnankulama/Book-Store_MERN.git
+`git clone https://github.com/dammamonnankulama/Book-Store_MERN.git`
 
 
 2. Install Dependencies:
 Navigate to the frontend and backend directories and install the necessary dependencies.
 
 For the frontend:
->>cd frontend
->>npm install
+`cd frontend`
+`npm install`
 
 For the backend:
->>cd backend
->>npm install
+`cd backend`
+`npm install`
 
 3. Run the Application:
 Start the Backend Server:
 Navigate to the backend directory and run the following command:
->>npm start
+`npm start`
 
 Start the Frontend Application:
 Now, go to the frontend directory and run:
->>npm run dev
+`npm run dev`
 
 
 
